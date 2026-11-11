@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#F3F5F4" />
+<meta name="description" content="Greeny — accounting for a clinic or a private practice: patients, treatment, payments, appointments and expenses." />
+<title>Greeny</title>
+<style>
+:root { color-scheme: light; --bg: #F3F5F4; --ink: #1B2422; --ink2: #3B4643; --muted: #66736F; --border: #E3E8E6; --accent: #0E7069; }
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--ink); font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans Armenian', sans-serif; -webkit-text-size-adjust: 100%; }
+main { max-width: 680px; margin: 0 auto; padding: 20px 16px calc(32px + env(safe-area-inset-bottom)); }
+header { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
+.brand { font-weight: 700; font-size: 20px; color: var(--accent); }
+nav { display: flex; gap: 6px; }
+nav a { padding: 7px 12px; border-radius: 10px; border: 1px solid var(--border); background: #fff; color: var(--ink); text-decoration: none; font-size: 14px; }
+nav a.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+article { background: #fff; border: 1px solid var(--border); border-radius: 16px; padding: 4px 20px 16px; margin-top: 14px; }
+h1 { font-size: 26px; line-height: 1.25; margin: 18px 0 6px; }
+.lead { font-size: 17px; color: var(--ink2); margin: 0 0 10px; line-height: 1.5; }
+h2 { font-size: 13px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); margin: 22px 0 6px; }
+p, li { font-size: 16px; line-height: 1.5; color: var(--ink2); }
+p { margin: 0 0 10px; }
+ul { margin: 0 0 10px; padding-left: 20px; }
+a { color: var(--accent); }
+.links { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0 4px; }
+.links a { padding: 10px 14px; border-radius: 12px; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; font-size: 15px; }
+.links a.ghost { background: #fff; color: var(--accent); border: 1px solid var(--border); }
+</style>
+</head>
+<body>
+<main>
+<header><span class="brand">Greeny</span><nav><a href="?lang=en" data-lang="en">English</a><a href="?lang=ru" data-lang="ru">Русский</a><a href="?lang=hy" data-lang="hy">Հայերեն</a></nav></header>
+
+<article id="en" lang="en">
+<h1>Greeny</h1>
+<p class="lead">Accounting for a clinic or a private practice: patients, treatment, payments, appointments and expenses — on a computer and a phone.</p>
+<h2>What it does</h2>
+<ul>
+<li>Patients and their treatment plans, debts and payments.</li>
+<li>Calendar of appointments.</li>
+<li>Expenses, payouts to doctors and technicians, statistics.</li>
+<li>Invoice for the patient by QR code, export to Excel.</li>
+</ul>
+<h2>Your data stays yours</h2>
+<p>The clinic’s data is kept on the clinic’s computer and phones. The developer does not receive it. Daily backups go to a folder you choose or, if you turn it on, to your own Google Drive — only to files Greeny created there.</p>
+<div class="links"><a href="https://github.com/AndranikSahakyanS/greeny-releases/releases/latest">Download</a><a class="ghost" href="greeny-invoice/privacy/?lang=en">Privacy policy</a></div>
+<h2>Contacts</h2>
+<p><a href="tel:+37477446887">+374&nbsp;77&nbsp;446&nbsp;887</a> · <a href="mailto:greeny.support@gmail.com">greeny.support@gmail.com</a></p>
+</article>
+
+<article id="ru" lang="ru">
+<h1>Greeny</h1>
+<p class="lead">Учёт для клиники или частной практики: пациенты, лечение, оплаты, записи и расходы — на компьютере и телефоне.</p>
+<h2>Что умеет</h2>
+<ul>
+<li>Пациенты, планы лечения, долги и оплаты.</li>
+<li>Календарь записей.</li>
+<li>Расходы, выплаты врачам и техникам, статистика.</li>
+<li>Счёт для пациента по QR-коду, выгрузка в Excel.</li>
+</ul>
+<h2>Данные остаются у вас</h2>
+<p>Данные клиники хранятся на компьютере и телефонах клиники. Разработчик их не получает. Ежедневные копии идут в выбранную вами папку или, если вы включите, в ваш собственный Google Диск — только в файлы, которые создал там Greeny.</p>
+<div class="links"><a href="https://github.com/AndranikSahakyanS/greeny-releases/releases/latest">Скачать</a><a class="ghost" href="greeny-invoice/privacy/?lang=ru">Политика конфиденциальности</a></div>
+<h2>Контакты</h2>
+<p><a href="tel:+37477446887">+374&nbsp;77&nbsp;446&nbsp;887</a> · <a href="mailto:greeny.support@gmail.com">greeny.support@gmail.com</a></p>
+</article>
+
+<article id="hy" lang="hy">
+<h1>Greeny</h1>
+<p class="lead">Հաշվառում կլինիկայի կամ մասնավոր պրակտիկայի համար՝ պացիենտներ, բուժում, վճարումներ, գրանցումներ և ծախսեր՝ համակարգչում և հեռախոսում։</p>
+<h2>Ինչ է անում</h2>
+<ul>
+<li>Պացիենտներ, բուժման պլաններ, պարտքեր և վճարումներ։</li>
+<li>Գրանցումների օրացույց։</li>
+<li>Ծախսեր, վճարումներ բժիշկներին և տեխնիկներին, վիճակագրություն։</li>
+<li>Հաշիվ պացիենտի համար QR կոդով, արտահանում Excel։</li>
+</ul>
+<h2>Տվյալները մնում են ձեզ մոտ</h2>
+<p>Կլինիկայի տվյալները պահվում են կլինիկայի համակարգչում և հեռախոսներում։ Մշակողը դրանք չի ստանում։ Ամենօրյա պատճենները գնում են ձեր ընտրած թղթապանակ կամ, եթե միացնեք, ձեր սեփական Google Drive՝ միայն այն ֆայլերը, որոնք այնտեղ ստեղծել է Greeny-ն։</p>
+<div class="links"><a href="https://github.com/AndranikSahakyanS/greeny-releases/releases/latest">Ներբեռնել</a><a class="ghost" href="greeny-invoice/privacy/?lang=hy">Գաղտնիության քաղաքականություն</a></div>
+<h2>Կոնտակտներ</h2>
+<p><a href="tel:+37477446887">+374&nbsp;77&nbsp;446&nbsp;887</a> · <a href="mailto:greeny.support@gmail.com">greeny.support@gmail.com</a></p>
+</article>
+</main>
+<script>
+(function () {
+  var langs = ['en', 'ru', 'hy'];
+  var q = new URLSearchParams(location.search).get('lang');
+  var nav = (navigator.languages || [navigator.language || '']).map(function (x) { return String(x).slice(0, 2).toLowerCase(); });
+  var lang = langs.indexOf(q) >= 0 ? q : nav.filter(function (x) { return langs.indexOf(x) >= 0; })[0] || 'en';
+  langs.forEach(function (l) { document.getElementById(l).hidden = l !== lang; });
+  document.querySelectorAll('nav a').forEach(function (a) { a.classList.toggle('on', a.getAttribute('data-lang') === lang); });
+  document.documentElement.lang = lang;
+})();
+</script>
+</body>
+</html>
